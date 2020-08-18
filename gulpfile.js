@@ -168,6 +168,12 @@ gulp.task('css-core', () => gulp.src(['css/reveal.scss'])
 
 gulp.task('css', gulp.parallel('css-themes', 'css-core'))
 
+
+gulp.task('copy-npm-plugins', () => {
+    return gulp.src(['./node_modules/reveal.js-menu/menu.js'])
+    .pipe(gulp.dest('./plugin'))
+})
+
 gulp.task('qunit', () => {
 
     let serverConfig = {
