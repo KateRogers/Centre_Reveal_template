@@ -84,7 +84,7 @@ body,
 .reveal p {
 	color: #333;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 24px !important;
+	font-size: 22px !important;
 	line-height: 1.65;
 }
 
@@ -143,7 +143,7 @@ body,
 section.has-dark-background,
 section.has-light-background {
 	text-align: center;
-	top: 50%;
+	top: 20%;
     transform: translateY(-50%);
 }
 
@@ -396,9 +396,7 @@ section.has-light-background {
     font-size:1em  !important;
     font-weight:bold !important;
 }
-
 .text-small {
-    font-size:0.8em !important;
     color:#595959 !important;
     text-align: justify;
     text-justify: inter-word;
@@ -525,6 +523,12 @@ span.popup {
 .make-it-pop .menubar {
 	visibility: hidden;
 }
+
+.img-standard {
+	max-width: 80%;
+	max-height : 300px;
+	margin: 0 auto;
+  }
 
 
 #quiz {

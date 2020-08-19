@@ -27,49 +27,178 @@
 			<div class="menubar">
 				<ul class="menu">
 					<!-- Here's the menu -->
-					<li><a href="#/introduction">Introduction</a></li>
-					<li><a href="#/sectionone">Section One</a></li>
-					<li><a href="#/sectiontwo">Section Two</a></li>
+					<li><a href="#/hxlbasics">HXL Basics</a></li>
+					<li><a href="#/hashtagsattributes">Hashtags & Attributes</a></li>
+					<li><a href="#/convensions">HXL Rules of the Road</a></li>
+					<li><a href="#/quickcharts">QuickCharts</a></li>
 				</ul>
 			</div>
 			<div class="slides">
-				<section data-state="make-it-pop">
+				<section data-state="make-it-pop" data-background-image="pics/backgroundimg_green.png" >
                     <div class="title_container">
-						<h2 >Quick Tips for Visualising Data</h2>
-						<h3 >Examples from the COVID-19 Pandemic </h3>
+						<h2 class="white">Introduction to HXL </h2>
+						<h3 class="white">Adding Hashtags & Attributes</h3>
 					</div>
 				</section>
-				<section id="introduction" data-menu-title="Introduction" name="Introduction">
+				<section id="introduction" data-menu-title="Introduction" name="Introduction" >
 					<h4>Introduction</h4>				
-					<p class="text-small">Introduction </p>
+					<p class="text-small">Welcome to the start of our series of technical sessions to help information-management specialists familiarise themselves with the Humanitarian Exchange Language (HXL).</p>
+					<p class="text-small">This session includes a series of slides to build your knowledge of HXL, a set of short videos to demonstrate how to easily add hashtags and attributes to your datasets as well as an introduction to some of the tools powered by HXL. The expected length of time to complete all segments is 25 minutes.</p>
+					<p class="text-small">In this first HXL session, you will learn:</p>
+						<p class="text-small">
+						<ol class="text-small">
+							<li>what benefits the Humanitarian Exchange Language (HXL) can bring to your data and data management process;</li>
+							<li>how to add HXL to your spreadsheets;</li>
+							<li>how to create Quick Charts for your datasets on Humanitarian Data Exchange (HDX).</li>
+						</ol>
+					</p>
 				</section>
-				<section id="introduction_continued" data-menu-title="Continued" name="Introduction">
-					<h4>Introduction Continued </h4>				
-					<p class="text-small">Instructions</p>
+				<section id="HXL Basics" data-state="make-it-pop" data-background-image="pics/red_back_drop.png" name="HXL Basics" >
+						<div class="title_container">
+							<h2 class="white">HXL Basics</h2>
+						</div>
 				</section>
-				<section id="sectionone" data-menu-title="Introduction" name="Section One">
-					<h4>Section One Continued</h4>				
-					<p class="text-small"></p>
+				<section id="Humanitarian_Exchange_Language" data-menu-title="Humanitarian Exchange Language" name="HXL Basics">
+					<h4>The Humanitarian Exchange Language</h4>				
+					<p class="text-small">The Humanitarian Exchange Language (HXL) is a simple standard for messy data. Use HXL hashtags to speed up data processing and create interoperability across data sources.</p>
+					<p class="text-small"> HXL was developed for humanitarians, by humanitarians. It takes into account the specific challenges humanitarians face in collecting, processing, and sharing data as well as the tools that humanitarians actually use to do their work.</p>
+					<p class="text-small">While that is all well and good, you are probably asking yourself "what will HXL actually help me do? Why should I care about HXL?" In this section, we will tell you why you should care about HXL.</p>
 				</section>
-				<section id="sectionone_continued" data-menu-title="Continued" name="Section One">
-					<h4>Section One Continued</h4>	
-					<p class="text-small"></p>
+				<section id="HXL_benefits" data-menu-title="Benefits of HXL" name="HXL Basics">
+					<h4>Benefits of HXL</h4>	
+					<p class="text-small">The HXL data standard was designed to make working with messy humanitarian data more efficient and effective. As a humanitarian, HXL can help if:
+						<ul class="text-small">
+							<li>you feel bogged down by repetitive, manual workflows;</li>
+							<li>you are looking for ways to reduce errors when preparing, cleaning, and merging data;
+							</li>
+							<li>you want to quickly and easily be able to know what data is in a given dataset;
+							</li>
+							<li>you have ever dreamed about producing reusable dashboards and quickly whipping up new visualisations; and 
+							</li>
+							<li>you put your blood, sweat and tears into producing high quality data and you want to make sure other people can use it. 
+							</li>
+						</ul>
+					</p>
 				</section>
-				<section id="quiz" data-menu-title="Quiz time!" name="Quiz time!">
+				<section id="Automate_Workflows" data-menu-title="Automate Data Workflows" name="HXL Basics">
+					<h4>Automate Data Workflows</h4>
+					<p class="text-small">Humanitarians spend an enormous amount of time and efforts manually copying, preparing, validating, and cleaning data. HXL was designed to transform repetitive, manual workflows to ensure that humanitarians can spend their time getting to insight.</p>
+					<div class="img-standard">
+						<img src="pics/jim_carry.gif" alt="jim_carry" />
+					</div>
+				</section>
+				<section id="Reduce_Errors" data-menu-title="Reduce Errors in Data" name="HXL Basics">
+					<h4>Reduce Errors in Data</h4>
+					<p class="text-small">It is easy to lose confidence in humanitarian data when it is riddled with many minor errors. We know that these errors are the result of overworked humanitarians who just do not have the time to spot them all.</p>
+					<div class="img-standard">
+						<img src="pics/minor_errors.png" alt="reduce errors" />
+					</div>
+				</section>
+				<section id="Improve_Clarity" data-menu-title="Improve Data Clarity" name="HXL Basics">
+					<h4>Improve Data Clarity</h4>
+					<p class="text-small">Between different languages and naming conventions that are found throughout the sector, it can be difficult to know what the data in a humanitarian dataset HXL is allows data users to know what data is in a dataset without having to know every language or search through data dictionaries.</p>
+					<div class="img-standard">
+						<img src="pics/whatdoesitmean.png" alt="What Does it Mean" />
+					</div>
+				</section>
+				<section id="Reproducible_Visualisations" data-menu-title="Reproducible Dashboards and Visualisations" name="HXL Basics">
+					<h4>Reproducible Dashboards and Visualisations</h4>
+					<p class="text-small">Humanitarians know that there is a lot of duplicated efforts building similar visualisations and dashboards over and over. HXL and tools it powers can help humanitarians produce reusable dashboards and quickly and easily create new visualisations.</p>
+					<div class="img-standard">
+						<img src="pics/reproduce_viz.png" alt="reproduce viz" />
+					</div>
+				</section>
+				<section id="Help_Downstream_Users" data-menu-title="Downstream Users Reuse your Data" name="HXL Basics">
+					<h4>Help Downstream Users Reuse your Data</h4>
+					<p class="text-small">We spend an enormous amount of time collecting and preparing data and share it in the hopes that other humanitarians can benefit. Data standards like HXL help downstream users quickly and easily get what they need from our data without requiring us to redesign how we work. Its a win-win!</p>
+					<div class="img-standard">
+						<img src="pics/help_downstream.png" alt="help downstream" />
+					</div>
+				</section>
+				<section id="Hashtags_Attributes" data-state="make-it-pop" data-background-image="pics/blue_back_dots.png" name="Hashtags & Attributes" >
+					<div class="title_container">
+						<h2 class="white">HXL Hashtags & Attributes</h2>
+					</div>
+				</section>
+				<section id="one_two_three" data-menu-title="One, Two, Three" name="Hashtags & Attributes">
+					<h4>As Simple as One, Two, Three</h4>
+					<div class="img-standard">
+						<img src="pics/hxl_steps_v2.png" alt="hxl steps" />
+					</div>
+				</section>
+				<section id="components" data-menu-title="Hashtags & Attributes" name="Hashtags & Attributes">
+					<h4>Hashtags & Attributes</h4>
+					<p class="text-small">The HXL standards are made up of hashtags and attributes. We add HXL hashtags and attributes to the row between our header and our data in a spreadsheet to describe the data in each column.
+					</p>
+					<div class="img-standard">
+						<img src="pics/hashtags_attributes.png" alt="hashtags & attributes" />
+					</div>
+				</section>
+				<section id="HXL_hashtags" data-menu-title="HXL Hashtags" name="Hashtags & Attributes">
+					<h4>HXL Hashtags</h4>
+					<p class="text-small">HXL hashtags define the data categories in each column of a humanitarian dataset. The HXL standard defines a wide range for core hashtags for data on places, surveys and assessments, operations, cash and finance, and incidents/events.</p>
+					<div class="img-standard">
+						<img src="pics/hxl_hashtag_ex.png" alt="hashtags" />
+					</div>
+				</section>
+				<section id="HXL_ttributes" data-menu-title="HXL Attributes" name="Hashtags & Attributes">
+					<h4>HXL Attributes</h4>
+					<p class="text-small">The attributes of the HXL hashtag are used to specify characteristics and do not carry complete information on their own. They can only be understood when combined with the hashtag they are describing. A HXL attribute starts with “+” sign. They always follow the hashtag they describe. 
+					</p>
+					<div class="img-standard">
+						<img src="pics/hxl_attribute_ex.png" alt="attributes" />
+					</div>
+				</section>
+				<section id="reusable_attributes" data-menu-title="Attributes Are Reuseable" name="Hashtags & Attributes">
+					<h4>Attributes Are Reuseable</h4>
+					<p class="text-small">HXL attributes are not tied to a single HXL hashtag. Think of them as adjectives that add detail to the hashtag.</p>
+					<p class="text-small">For example, the attribute "+children" can be combined with hashtags to describe the following variables:
+						<ul class="text-small">
+							<li>#population +children: Number of children in the general population.</li>
+							<li>#affected +children: Number of children affected by the emergency.</li>
+							<li>#inneed +children: Number of children in need of humanitarian assistance.</li>
+							<li>#reached +children: Number of children reached with humanitarian assistance.
+							</li>
+						</ul>  
+					</p>
+				</section>
+				<section id="quiz" data-menu-title="Quiz time!" name="Hashtags & Attributes">
 					<script data-quiz>
 						quiz = {
 								"info": {
-										"name":    "Test Your Knowledge!!",
-										"main":    "Think you're smart enough to be on Jeopardy? Find out with this super crazy knowledge quiz!",
-										"level1":  "Jeopardy Ready",
-										"level2":  "Jeopardy Contender",
-										"level3":  "Jeopardy Amateur",
-										"level4":  "Jeopardy Newb",
-										"level5":  "Stay in school, kid..." // no comma here
+										"name":    "HXL Hashtag Quiz",
+										"main":    "Now that you know the basics, try to complete our hashtag quiz for adding hashtags to a 3W",
+										"level1":  "HXL Ready",
+										"level2":  "HXL Contender",
+										"level3":  "HXL Amateur",
+										"level4":  "HXL Newb",
+										"level5":  "HXL Newb" // no comma here
 								},
 								"questions": [
 										{ // Question 1 - Multiple Choice, Single True Answer
-												"q": "What number is the letter A in the English alphabet?",
+												"q": "Which HXL tag works best for a column with the header 'Pays':",
+												"a": [
+														{"option": "#country+code",      "correct": false},
+														{"option": "#country+name+fr",     "correct": false},
+														{"option": "#country",      "correct": true},
+														{"option": "#country+code",     "correct": false} // no comma here
+												],
+												"correct": "<p><span>That's right!</span></p>",
+												"incorrect": "<p><span>Not Quite</span>The best option here would be the hashtag country with the attributes +name and +fr indicating that the column contains data on country names in French.</p>" // no comma here
+										},
+										{ // Question 1 - Multiple Choice, Single True Answer
+												"q": "Which HXL tag works best for a column with the header 'Pays':",
+												"a": [
+														{"option": "8",      "correct": false},
+														{"option": "14",     "correct": false},
+														{"option": "1",      "correct": true},
+														{"option": "23",     "correct": false} // no comma here
+												],
+												"correct": "<p><span>That's right!</span> The letter A is the first letter in the alphabet!</p>",
+												"incorrect": "<p><span>Uhh no.</span> It's the first letter of the alphabet. Did you actually <em>go</em> to kindergarden?</p>" // no comma here
+										},
+										{ // Question 1 - Multiple Choice, Single True Answer
+												"q": "Which HXL tag works best for a column with the header 'Pays':",
 												"a": [
 														{"option": "8",      "correct": false},
 														{"option": "14",     "correct": false},
@@ -84,14 +213,22 @@
 						}
 					</script>
 					</section>
-				<section id="sectiontwo" data-menu-title="Introduction" name="Section Two">
-					<h4>Section Two Continued</h4>
-					<p class="text-small">The choices we make when we visualise data influence how people see, understand, and react to the underlying data. </p>
-				</section>
-				<section id="sectiontwo_continued" data-menu-title="Continued" name="Section Two">
-					<h4>Section Two Continued</h4>
-					<p class="text-small">The choices we make when we visualise data influence how people see, understand, and react to the underlying data. </p>
-				</section>
+					<section id="Rules of The Road" data-state="make-it-pop" data-background-image="pics/backgroundimg_green.png" name="HXL Rules of the Road" >
+						<div class="title_container">
+							<h2 class="white">HXL Rules and Conventions</h2>
+						</div>
+					</section>
+					<section id="Quickcharts" data-state="make-it-pop" data-background-image="pics/quickcharts_back.png" name="QuickCharts" >
+						<div class="title_container">
+							<h2 class="white">QuickCharts</h2>
+						</div>
+					</section>
+					<section id="QuickCharts_gif" data-menu-title="Quickcharts" name="QuickCharts">
+						<h4>As Simple as One, Two, Three</h4>
+						<div class="img-standard">
+							<img src="pics/qc1.gif" alt="Quickcharts Gif" />
+						</div>
+					</section>
 				
 			</div>
 		</div>
@@ -108,6 +245,7 @@
 			Reveal.initialize({
 				hash: true,
 				center: false,
+				width: "100%",
 				
 
 				simplemenu: {
