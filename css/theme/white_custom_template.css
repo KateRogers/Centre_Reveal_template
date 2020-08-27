@@ -157,12 +157,13 @@ body {
   border-spacing: 0; }
 
 .reveal table th {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 22px; }
 
 .reveal table th, .reveal table td {
   text-align: left;
   padding: 0.1em 0.5em 0.1em 0.5em;
-  border-bottom: 10px solid; }
+  border-bottom: 1px solid; }
 
 .reveal table tr:last-child td {
   border-bottom: none; }
@@ -329,6 +330,18 @@ body {
     text-justify: inter-word;
     width:80%;
     margin-left:10% !important;
+}
+.text-example {
+  font: size 50px!important;
+  margin: 0 0 20px 0;
+  color: #1bb580;
+  font-family: 'Arvo', serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-shadow: none;
+  word-wrap: break-word;
 }
 .text-ex-small {
   font-size:0.65em !important;
